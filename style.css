@@ -1,0 +1,61 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+.game{
+  height: 500px;
+  width: 800px;
+  background-color: #393e46;
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.circle{
+     display: block;
+}
+
+body :hover{
+  cursor: crosshair;
+}
+
+.progress{
+  display: flex;
+  justify-content: center;
+}
+
+.startGame{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.gameBoard, .rule{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
